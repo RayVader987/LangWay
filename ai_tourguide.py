@@ -9,7 +9,7 @@ import google.generativeai as genai
 import os
 
 # === Gemini Configuration ===
-GEMINI_API_KEY = 'AIzaSyB8rGHTzqAVXSXfjhLrnyRS1RiXh3ekVJo'  # Replace with your actual key
+GEMINI_API_KEY = 'Replace with your Gemini API here'  # Replace with your actual key
 genai.configure(api_key=GEMINI_API_KEY)
 model = genai.GenerativeModel("gemini-2.5-flash")
 model.last_response_text = ""  # Cache for Gemini response if needed
